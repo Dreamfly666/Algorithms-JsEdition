@@ -1,21 +1,40 @@
-class Stack{
-    constructor(){
-        this.stack = []
+/*
+ * @Author: lishanpeng 
+ * @Date: 2019-01-19 13:24:51 
+ * @Last Modified by: lishanepng
+ * @Last Modified time: 2019-01-20 21:44:55
+ */
+//   栈是一种后进先出的LIFO 原则的有序集合
+
+let Stack = (function () {
+    const items = new WeakMap()
+    class Stack {
+        constructor() {
+            items.set(this, [])
+        }
+        push(element) {
+            let s = items.get(this)
+            s.push(element)
+        }
+        pop() {
+            let s = items.get(this)
+            let r = s.pop()
+            return r
+        }
+        getSize(){
+            let s = items.get(this)
+            return s.length
+        }
+        peek(){
+            let s = items.get(this)
+            return s[this.getSize() - 1]
+        }
+        isEmpty(){
+            return this.getSize() === 0
+        }
     }
-    push(item){
-        this.stack.push(item);
-    }
-    pop(){
-        this.stack.pop();
-    }
-    peek(){
-        return this.stack[this.getCount()-1]
-    }
-    getCount(){
-        return this.stack.length
-    }
-    isEmpty(){
-        return this.getCount() === 0
-    }
-}
+    return Stack
+})()
+
+let s1 = new Stack()
 
