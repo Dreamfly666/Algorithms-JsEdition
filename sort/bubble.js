@@ -1,3 +1,4 @@
+
 // 冒泡排序法
 function bubble(arr){
     var len = arr.length
@@ -12,4 +13,4 @@ function bubble(arr){
     }
     return arr
 }
-console.log(bubble([4,2,1]))
+console.log(bubble([34,43,1]))

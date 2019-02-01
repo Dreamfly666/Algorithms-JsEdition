@@ -2,5 +2,4 @@
 function insertSort(arr){
     var len = arr.length
     var preIndex,current
-    
 }
