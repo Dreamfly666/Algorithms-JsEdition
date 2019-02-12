@@ -2,7 +2,7 @@ var gulp = require('gulp'),
 browserSync = require('browser-sync');
 gulp.task('browser-sync',function(){
     browserSync.init({
-        files:['./js/*.js'],
+        files:['./**/*.js'],
         server:{
             baseDir:'./',
             index:'index.html'
