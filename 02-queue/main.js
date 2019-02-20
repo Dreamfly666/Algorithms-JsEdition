@@ -1,4 +1,4 @@
-// FIFO (First In First Out) 先进先出
+// FIFO (First In First Out) 先进先出的有序元素集合
 let Queue2 = (function(){
     const items = new WeakMap()
     class Queue2 {
