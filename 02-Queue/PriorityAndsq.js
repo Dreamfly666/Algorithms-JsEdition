@@ -1,3 +1,4 @@
+// 优先队列和循环队列
 // 优先队列
 function PriorityQueue(){
     let items = []
@@ -25,6 +26,7 @@ function PriorityQueue(){
         }
      }
 }
+
 
 // let priorityQueue = new PriorityQueue()
 // priorityQueue.enqueue('lishaeng',22)

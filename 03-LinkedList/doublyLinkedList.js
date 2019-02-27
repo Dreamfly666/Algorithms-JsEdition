@@ -1,5 +1,4 @@
 // js实现双向链表
-
 function DoublyLinkedList(){
     let Node = function(element){
         this.element = element

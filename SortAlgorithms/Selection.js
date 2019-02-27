@@ -18,3 +18,4 @@
 // }
 console.log(selectionSort([2,43,5]))
 
+
