@@ -2,10 +2,10 @@
  * @Author: lishanpeng 
  * @Date: 2019-01-19 13:24:51 
  * @Last Modified by: lishanepng
- * @Last Modified time: 2019-02-15 11:07:19
+ * @Last Modified time: 2019-03-11 22:14:18
  */
 //   栈是一种后进先出的LIFO 原则的有序集合
-
+// inzui
 let Stack = (function () {
     const items = new WeakMap()
     class Stack {
@@ -36,5 +36,7 @@ let Stack = (function () {
     return Stack
 })()
 
-let s1 = new Stack()
+x
+
+
 

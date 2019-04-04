@@ -19,3 +19,6 @@
 console.log(selectionSort([2,43,5]))
 
 
+function selectionSort(arr){
+    
+}
