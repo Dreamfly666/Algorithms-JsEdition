@@ -5,51 +5,9 @@
 // 树的节点成为键 
 // 遍历
 // 先序遍历：根左右  中序遍历：左根右  后序遍历：左右根
-function BinarySearchTree() {
-    var Node = function (key) {
-        this.key = key
-        this.left = null
-        this.right = null
-    }
+// 二叉树中的结点最多有两个子结点，左侧子结点和右侧子结点。
 
-    var insertNode = function(node,newNode) {
-        if(newNode.key < node.key) {
+// 创建BinarySearchTree
 
-        }
-    }
-    var insertNode = function (node, newNode) {
-        if (newNode.key < node.key) {
-            if (node.left === null) {
-                node.left = newNode
-            } else {
-                insertNode(node.left, newNode)
-            }
-        } else {
-            if (node.right === null) {
-                node.right = newNode
-            } else {
-                insertNode(node.right, newNode)
-            }
-        }
-    }
-    var root = null
-    // 插入
-    this.insert = function (key) {
-        var newNode = new Node(key)
-        if (root === null) {
-            root = newNode
-        } else {
-            insertNode(root, newNode)
-        }
-    }
-    // 遍历
-
-    this.inOrderTraverse = function (callback) {
-    
-    }
-
-
-}
-
-var tree = new BinarySearchTree()
-tree.insert(11)
+var data = 33
+console.log(33)

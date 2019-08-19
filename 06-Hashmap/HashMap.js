@@ -280,6 +280,7 @@ var HashTable2 = function (key, value) {
                 table[index] = undefined
             }
          }
+
      }
  }
  this.toString = function(){

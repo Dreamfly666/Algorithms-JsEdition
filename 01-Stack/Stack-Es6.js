@@ -2,7 +2,7 @@
  * @Author: lishanpeng 
  * @Date: 2019-01-19 13:24:51 
  * @Last Modified by: lishanepng
- * @Last Modified time: 2019-04-05 15:29:01
+ * @Last Modified time: 2019-06-10 10:17:16
  */
 //   栈是一种后进先出的LIFO 原则的有序集合
 // inzui
@@ -35,8 +35,4 @@ let Stack = (function () {
     }
     return Stack
 })()
-
-x
-
-
 

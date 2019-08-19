@@ -9,6 +9,7 @@ let Queue2 = (function(){
             let q = items.get(this)
             q.push(element)
         }
+    
         dequeue(){
             let q= items.get(this)
             let r = q.shift()
@@ -23,3 +24,4 @@ let Queue2 = (function(){
 })()
 
 l.enqueue(243432)
+
