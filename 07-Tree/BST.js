@@ -6,8 +6,4 @@
 // 遍历
 // 先序遍历：根左右  中序遍历：左根右  后序遍历：左右根
 // 二叉树中的结点最多有两个子结点，左侧子结点和右侧子结点。
-
-// 创建BinarySearchTree
-
-var data = 33
-console.log(33)
+// 创建BinarySearchTre
