@@ -8,5 +8,4 @@
 // 二叉树中的结点最多有两个子结点，左侧子结点和右侧子结点。
 // 创建BinarySearchTre
 
-let data = 1
-console.log(data)
+var data = 11
